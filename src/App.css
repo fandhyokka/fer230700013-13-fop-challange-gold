@@ -1,0 +1,431 @@
+.navbar-set-background {
+  background-color: #f1f3ff;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.navbar-set-background-v2 {
+  background-color: #f1f3ff;
+  margin-left: 0;
+  padding-left: 0;
+  height: 200px;
+  display: flex;
+  align-items: start;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.navbar-collapse {
+  margin-right: 0;
+}
+
+.navbar-margin-adjustment {
+  margin-right: 100px;
+}
+
+/* Company Logo */
+.company-logo {
+  background-color: #0d28a6;
+  width: 60px;
+  height: 20px;
+}
+
+/* Side Navbar */
+.side-navbar {
+  position: fixed;
+  top: 0;
+  right: -50%;
+  width: 50%;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+  font-size: 15px;
+}
+
+.side-navbar.active {
+  right: 0;
+}
+
+.side-navbar-content {
+  padding: 20px;
+}
+
+.side-navbar-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.side-navbar-close i {
+  vertical-align: middle;
+}
+
+/* Hero Header */
+.hero-set-background {
+  background-color: #f1f3ff;
+  font-weight: bold;
+}
+
+.header-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Our Service */
+.wrapper-check-icon {
+  display: flex;
+  flex-direction: row;
+}
+.service-section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.check-icon {
+  background-color: #cfd4ed;
+  color: #0d28a6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+/* Why Us */
+
+.why-us-card {
+  height: 13rem;
+}
+
+.bg-thumbs-up {
+  background-color: #f9cc00;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 5px;
+  display: inline-flex;
+}
+
+.bg-pricetag {
+  background-color: #fa2c5a;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 5px;
+  display: inline-flex;
+}
+
+.bg-time {
+  background-color: #0d28a6;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 5px;
+  display: inline-flex;
+}
+
+.bg-ribbon {
+  background-color: #5cb85f;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 5px;
+  display: inline-flex;
+}
+
+.end-of-why-us {
+  overflow: hidden;
+}
+
+/* Testimonial */
+
+.testimonial-container {
+  display: flex;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.carousel-card {
+  width: 619px;
+  height: 250px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  background-color: #f1f3ff;
+  margin-right: 20px;
+  border-radius: 1%;
+  overflow-wrap: break-word;
+}
+
+.carousel-content {
+  display: flex;
+}
+
+.image-thumbnail-testimonial {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.carousel-ratting {
+  color: #f9cc00;
+}
+
+.testimonial-button-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.testimonial-button {
+  border-style: solid;
+  border-color: #c4c4c4;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+/* Action */
+.action-container {
+  background-color: #0d28a6;
+  color: white;
+  padding: 50px;
+}
+
+/* Search Car */
+.search-car-container {
+  background-color: #ffffff;
+  border: 0.5 solid rgb(55, 45, 45);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1030px;
+  position: relative;
+  margin-top: -20px;
+}
+
+.container-detail-order {
+  background-color: #ffffff;
+  border: 0.5 solid rgb(55, 45, 45);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 10px 0px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1040px;
+  position: relative;
+  margin-top: -40px;
+}
+
+.search-car-input-wrapper {
+  margin-top: -8px;
+}
+
+.dropdown-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #565e64;
+  box-shadow: none;
+}
+
+.form-control:hover {
+  background-color: #565e64;
+  color: white;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: end;
+}
+
+/* Search Car Result */
+
+.form-control {
+  margin-top: 25px;
+}
+
+.button-for-search-car {
+  background-color: #5cb85f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 39px;
+}
+
+.button-adjustment-setting-search-result {
+  color: #0d28a6;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border-color: #0d28a6;
+  height: 39px;
+  width: 70px;
+}
+
+.rent-detail-container {
+  max-width: 1048px;
+  background-color: #ffffff;
+  border: 0.5 solid rgb(55, 45, 45);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 10px 10px 10px 20px;
+}
+
+.car-detail-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.price-total-formater {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Footer */
+
+.social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-navigation-ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: -32px;
+}
+
+.footer-navigation-ul a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.social-media .social-media-icon {
+  background-color: #0d28a6;
+  color: white;
+  width: 32px;
+  height: 32px;
+  font-size: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 2%;
+}
+
+/* Header Media Screen Responsive */
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+  .header-image {
+    height: 350px;
+    width: 800px;
+    margin-right: -90px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .why-us-card {
+    height: 260px;
+  }
+}
+
+/* Navbar Media Screen */
+@media (min-width: 992px) {
+  .navbar-nav {
+    display: flex;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 991px) {
+  .navbar-nav {
+    display: none;
+  }
+}
+
+/* Search Car and Result Media Query for Mobiles */
+@media (max-width: 576px) {
+  .search-car-container {
+    padding: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .dropdown-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Search Car Media Query for Tablets */
+@media (min-width: 577px) and (max-width: 1024px) {
+  .search-car-container {
+    padding: 20px 0 20px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+}
+
+/* Search Car Result Media Query for Mobiles */
+@media (max-width: 576px) {
+  .search-car-result-container {
+    padding: 20px;
+    width: auto;
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  .wrapper-dropdown-menu {
+    display: block;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1024px) {
+  .search-car-result-container {
+    padding: 20px;
+    width: auto;
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper-dropdown-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+}
